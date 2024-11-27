@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Tanish-To-do-List",
+  "version": "1.0",
+  "description": "A to-do list with transparent background and draggable functionality.",
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  }
+}
