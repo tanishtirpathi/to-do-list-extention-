@@ -74,6 +74,8 @@ body {
 #editable {
   width: 100%;
   height: 100%;
+  text-decoration: none !important;
+
   background-color: rgba(0, 0, 0, 0);
   color: blanchedalmond;
   padding-left: 0px;
@@ -114,4 +116,11 @@ hr {
   height: 30px;
   background: rgba(130, 240, 163, 0.884);
   border-radius: 5px;
+}
+#editable::spelling-error {
+  text-decoration: none !important;
+}
+
+#editable::grammar-error {
+  text-decoration: none !important;
 }
